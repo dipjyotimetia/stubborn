@@ -1,0 +1,3 @@
+go build -v -o dist/ ./...
+
+./dist/stubborn stubs --config config/config.yaml
